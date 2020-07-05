@@ -21,7 +21,7 @@ As next step you will have to follow the prompt to setup your environment:
 #eb init  
 
 
-Afterward you will have to create teh stack:
+Afterward you will have to create the stack:
 
 #eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine <DB_Engine_Name> -db.i <DB_Instance_Type> --scale 1
 
