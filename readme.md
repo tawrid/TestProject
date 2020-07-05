@@ -22,3 +22,7 @@ Afterward you will have to create teh stack
 
 Then should be able to deploy the application
 #eb deploy
+
+
+To destroy the deployment run
+#eb terminate
