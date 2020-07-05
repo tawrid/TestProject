@@ -45,7 +45,7 @@ https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 ## Undeploy
 1. To destroy/uninstall the deployment execute:
 
-```eb terminate```
+```eb terminate --all```
 
 ## Limitations:
 1. Access to the application may not be available due to security group restrictions. You will have to manually modifiy the instance related SecurityGroup configuraitons to allow your traffic.
