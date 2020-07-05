@@ -9,7 +9,7 @@ You will have to setup the awsebcli before proceeding with the next steps.
 
 Reference Link: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 
-[Deployment Architecure]: https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
+Deployment Architecure: https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 
 Then first you will have to create:
 
