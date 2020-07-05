@@ -11,12 +11,12 @@ Reference Link: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-i
 
 Deployment Architecure: https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 
-Then first you will have to create:
+First you will have to initiate Elastic BeanStalk (EB):
 
 #eb init -p go <Application_Name> --profile <AWS profile name>
 
 
-As next step you will have to follow the prompt to setup your environment:
+As next step you will have to follow the prompt to setup your local environment:
 
 #eb init  
 
@@ -26,11 +26,11 @@ Afterward you will have to create the stack:
 #eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine <DB_Engine_Name> -db.i <DB_Instance_Type> --scale 1
 
 
-Then should be able to deploy the application:
+Then we should be able to deploy the application:
 
 #eb deploy
 
 
-To destroy the deployment run:
+To destroy/uninstall the deployment execute:
 
 #eb terminate
