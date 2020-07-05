@@ -6,6 +6,7 @@ In order to deploy the application following commands are required to be execute
 Pre-requisite:
 
 You will have to setup the awsebcli before proceeding with the next steps.
+
 Reference Link: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 
 [Deployment Architecure]: https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
