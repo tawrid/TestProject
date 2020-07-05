@@ -42,7 +42,8 @@ https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 
 ```eb open```
 
-4. To destroy/uninstall the deployment execute:
+## Undeploy
+1. To destroy/uninstall the deployment execute:
 
 ```eb terminate```
 
