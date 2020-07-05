@@ -1,1 +1,1 @@
-web: dist/TechTestApp serve
+web: dist/TechTestApp updatedb -s && dist/TechTestApp serve
