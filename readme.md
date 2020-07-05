@@ -38,7 +38,7 @@ https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 
 ```eb deploy```
 
-4. To open the application run 
+4. To open the application in your browser run 
 
 ```eb open```
 
