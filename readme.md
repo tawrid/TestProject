@@ -23,7 +23,7 @@ As next step you will have to follow the prompt to setup your local environment:
 
 Afterward you will have to create the stack:
 
-#eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine <DB_Engine_Name> -db.i <DB_Instance_Type> --scale 1
+#eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine postgres -db.i <DB_Instance_Type> --scale 1
 
 
 Then we should be able to deploy the application:
