@@ -9,26 +9,26 @@ You will have to setup the awsebcli before proceeding with the next steps.
 Reference Link: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 
 
-Then first you will have to create 
+Then first you will have to create:
 
 #eb init -p go <Application_Name> --profile <AWS profile name>
 
 
-As next step you will have to follow the prompt to setup your environment
+As next step you will have to follow the prompt to setup your environment:
 
 #eb init  
 
 
-Afterward you will have to create teh stack
+Afterward you will have to create teh stack:
 
 #eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine <DB_Engine_Name> -db.i <DB_Instance_Type> --scale 1
 
 
-Then should be able to deploy the application
+Then should be able to deploy the application:
 
 #eb deploy
 
 
-To destroy the deployment run
+To destroy the deployment run:
 
 #eb terminate
