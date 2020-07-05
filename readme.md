@@ -32,7 +32,7 @@ https://github.com/tawrid/TestProject/blob/master/Deployment_Architecture.png
 
 2. Afterward you will have to create the stack with provided DB credentials:
 
-```eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine postgres -db.i <DB_Instance_Type> --scale 1```
+```eb create <Application_Name> --database --database.username <User_Name> --database.password <DB_Password> --database.engine postgres -db.i <DB_Instance_Type> --scale 1 --region <Region_Names>```
 
 3. Then we should be able to deploy the application:
 
