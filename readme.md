@@ -34,3 +34,9 @@ Then we should be able to deploy the application:
 To destroy/uninstall the deployment execute:
 
 #eb terminate
+
+Limitations:
+
+1. Access to the application may not be available due to security group restrictions. You will have to manually modifiy the instance related SecurityGroup configuraitons to allow your traffic.
+
+2. Can use the EB provided FQDN or EC2 public IP to visit the application.
