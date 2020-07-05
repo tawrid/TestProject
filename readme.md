@@ -1,4 +1,4 @@
-# Process to excute the test
+# Processes to excute
 
 In order to deploy the application following commands are required to be executed:
 
